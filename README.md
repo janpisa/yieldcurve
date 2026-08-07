@@ -1,5 +1,5 @@
-# yieldcurve
-An R-based template for modelling the spot and par yield curves of a selected bond class.
+# curves
+An R-based template for modelling the spot and par yield curves of a selected bond class in addition to a Python implementation of a US credit default swap (CDS) spread curve fitted using an adjusted Nelson-Siegel function.
 
 ## Spot Yield Curve
 A zero-coupon continuously compounded yield curve is fitted following the methodology presented in Svensson (1994). The parsimonious (parametric) model of spot rates is given as
