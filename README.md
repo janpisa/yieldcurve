@@ -18,11 +18,29 @@ The R package utilized to conduct the procedure is *termstrc*, described in the 
 ## Par Yield Curve
 A zero-coupon yield curve is converted to a par curve via the package *yieldcurves*. The compounding convention selected is annual, mirroring the Czech government bond standard.
 
+## Credit Default Swap Spread Curve
+A US CDS spread curve fitted using the adjusted Nelson-Siegel function, proposed in Dvořák et al. (2019) and further discussed personally with Mr Dvořák himself. Assuming that the instantaneous CDS spread is equal to zero (in other words, no default risk exists), the Nelson-Siegel function becomes
+
+```math
+r(t)=
+\beta_0\left[1-\frac{1-e^{-t/\lambda}}{t/\lambda}\right]
++\beta_2\left[
+\frac{1-e^{-t/\lambda}}{t/\lambda}
+-e^{-t/\lambda}
+\right]
+```
+
+since $β_0$ + $β_1$ = 0.
+
 ## References
 The original paper by Svensson, presenting the methodology:
 
     Svensson, L. E. (1994). Estimating and interpreting forward interest rates: Sweden 1992-1994. IMF Working Paper WP/94/114. 
     https://larseosvensson.se/files/papers/estimating-and-interpreting-forward-rates-sweden-1992-1994-IMFwp94-114.pdf
+
+The ČNB paper on CDS spread curve:
+
+    Dvořák, M., Komárková, Z., & Kučera, A. (2019). The Czech Government Yield Curve Decomposition at the Lower Bound. Czech Journal of Economics & Finance, 69(1). https://journal.fsv.cuni.cz/storage/1427_02_36_kucera_final_issue_1_2019_.pdf
 
 
  
