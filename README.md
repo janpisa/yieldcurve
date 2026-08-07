@@ -23,11 +23,11 @@ A US CDS spread curve fitted using the adjusted Nelson-Siegel function, proposed
 
 ```math
 r(t)=
-\beta_0\left[1-\frac{1-e^{-t/\lambda}}{t/\lambda}\right]
-+\beta_2\left[
+\beta_0\left(1-\frac{1-e^{-t/\lambda}}{t/\lambda}\right)
++\beta_2\left(
 \frac{1-e^{-t/\lambda}}{t/\lambda}
 -e^{-t/\lambda}
-\right]
+\right)
 ```
 
 since $β_0$ + $β_1$ = 0.
