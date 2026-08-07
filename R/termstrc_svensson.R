@@ -1,20 +1,5 @@
 # Package termstrc => fitting a yield curve using the Svensson method (6 parameters)
 
-# export to excel:
-# https://stackoverflow.com/questions/19414605/export-data-from-r-to-excel
-
-# convert a list to a dataframe
-# https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
-
-# dataframe csv adjustment
-# https://stackoverflow.com/questions/24829027/unimplemented-type-list-when-trying-to-write-table
-
-# creating a govbonds-type input data list
-# https://stackoverflow.com/questions/40028279/how-to-estimate-static-yield-curve-with-termstrc-package-in-r
-# https://stackoverflow.com/questions/26814186/fail-to-create-couponbonds-object-in-termstrc-package-using-r
-# https://quant.stackexchange.com/questions/4808/using-the-termstrc-package-in-r
-# https://stackoverflow.com/questions/15915575/termstrc-datastream-import-estim-nss-dyncouponbonds
-
 # possible to fit a yield curve from discount bond/STRIPS data => see links above
 
 library(writexl)
