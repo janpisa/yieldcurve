@@ -40,7 +40,8 @@ The original paper by Svensson, presenting the methodology:
 
 The ČNB paper on CDS spread curve:
 
-    Dvořák, M., Komárková, Z., & Kučera, A. (2019). The Czech Government Yield Curve Decomposition at the Lower Bound. Czech Journal of Economics & Finance, 69(1). https://journal.fsv.cuni.cz/storage/1427_02_36_kucera_final_issue_1_2019_.pdf
+    Dvořák, M., Komárková, Z., & Kučera, A. (2019). The Czech Government Yield Curve Decomposition at the Lower Bound. Czech Journal of Economics & Finance, 69(1). 
+    https://journal.fsv.cuni.cz/storage/1427_02_36_kucera_final_issue_1_2019_.pdf
 
 
  
